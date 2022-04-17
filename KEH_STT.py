@@ -29,9 +29,9 @@ kscale = 1.112668301525780e-36
 kappa = 1.346790806509621e+13
 
 
-url_intermediate_e_c = "https://raw.github.com/esmyrnio/KEH_STT/main/guess_solutions/TOV_intermediate_e_c.txt"
-url_high_e_c = "https://raw.github.com/esmyrnio/KEH_STT/main/guess_solutions/TOV_high_e_c.txt"
-url_low_e_c = "https://raw.github.com/esmyrnio/KEH_STT/main/guess_solutions/TOV_low_e_c.txt"
+url_intermediate_e_c = "https://raw.github.com/esmyrnio/py_KEH_STT/main/guess_solutions/TOV_intermediate_e_c.txt"
+url_high_e_c = "https://raw.github.com/esmyrnio/py_KEH_STT/main/guess_solutions/TOV_high_e_c.txt"
+url_low_e_c = "https://raw.github.com/esmyrnio/py_KEH_STT/main/guess_solutions/TOV_low_e_c.txt"
 
 
 #LOAD EOS FILE
