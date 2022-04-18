@@ -38,15 +38,17 @@ url_low_e_c = "https://raw.github.com/esmyrnio/py_KEH_STT/main/guess_solutions/T
 
 def load_eos(eos_file):
 
-    f_eos = open(eos_file,"r")
-    rho,p,h,n0 = np.loadtxt(eos_file, skiprows=1, unpack=True)
+    path="EoS/"
+
+    f_eos = open(path+eos_file,"r")
+    rho,p,h,n0 = np.loadtxt(path+eos_file, skiprows=1, unpack=True)
 
     global log_e, log_p, log_h, log_n0
 
     log_e=np.log10(rho*c*c*kscale)
     log_p=np.log10(p*kscale)
     log_h=np.log10(h/(c*c))
-    log_n0=np.log10(n0)   
+    log_n0=np.log10(n0)
 
 #GUESS SOLUTION
 
